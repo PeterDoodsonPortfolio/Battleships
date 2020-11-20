@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Pseudocode:\
+\
+Class Position:\
+has an x and y value\
+\
+\
+Class Ship:\
+has 3 position values\
+\
+Class Sea:\
+has x and y value both set to 5 \
+sea content, list with some default ships\
+function valid placement:\
+if position less than sea\'92s x and y return true\
+\
+Class Command:\
+function get command:\
+if input matches valid command set successful input to true and save command to command entered\
+else successful input is false\
+\
+Class Simulator:\
+function process command:\
+gets a command and runs the correct function to deal with it\
+\
+function exit command:\
+exits the program\
+\
+function show ships command:\
+for loop to print sea content\
+for loop to create and then insert data into grid\
+print grid\
+\
+function place ship:\
+use for loop to determine if ship is valid\
+if ship is valid add ship to the sea content\
+print the result to the user\
+\
+Main\
+function show instructions:\
+contains print statement that prints the instructions for the game\
+\
+while running\
+process command()\
+\
+\
+\
+\
+}
